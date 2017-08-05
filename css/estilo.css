@@ -1,0 +1,133 @@
+/* TAGs */
+
+body {
+	background: #FFF;
+}
+
+header {
+	margin-left: 50px;
+	float: left;
+}
+
+nav {
+	margin-left: 75px;
+	margin-top: 75px;
+	float: left;
+}
+
+article {
+	margin: 0 50px;
+	text-align: justify;
+	font-family: trebuchet, sans-serif;
+	clear: both;
+	background: #FFF;
+	padding: 10px;
+	padding-top: 30px;
+	border-top: 1px solid black;
+}
+
+section {
+	clear: both;
+	text-indent: 40px;
+	width: 70%;
+}
+
+footer {
+	font-family: trebuchet, sans-serif;
+	font-size: 15px;
+	margin-top: 10px;
+	clear: both;
+	text-align: center;
+	background: #FFF;
+	padding: 10px;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: white;
+	background: #1E90FF;
+}
+
+a:active {
+	color: white;
+}
+
+/* IDs */
+
+#logo {
+	width: 250px;
+	height: 250px;
+}
+
+#barra-superior {
+	margin: -10px;
+	width: auto;
+	height: auto;
+}
+
+#barra-lateral {
+	width: 20%;
+	height: 82%;
+	position: absolute;
+	right: 50px;
+	top: 350px;
+	border-left: 1px solid black;
+	padding-left: 20px;
+}
+
+#perfil {
+	border: 1px solid black;
+	border-radius: 100px;
+	width: 70%;
+	position: absolute;
+	right: 8%;
+}
+
+#mensagem {
+	width: 350px;
+	height: 150px;
+}
+
+
+/* CLASSES */
+
+.menu {
+	display: block;
+	padding-top: 40px;
+}
+
+.menu-item {
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+	font-family: trebuchet, sans-serif;
+	font-size: 20px;
+}
+
+.galeria {
+	text-indent: 0;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	float: left;
+}
+
+.fotos {
+	border: 2px black groove;
+	float: left;
+	width: 40%;
+	margin-right: 70px;
+	margin-bottom: 30px;
+}
+
+.tab {
+	text-indent: 40px;
+	padding-top: 180px;
+}
